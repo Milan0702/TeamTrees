@@ -1,0 +1,41 @@
+/* TreeCounter.css */
+.tree-counter-container {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background:transparent;
+    border-radius: 10px;
+
+    transition: transform 0.2s;
+    user-select: none;
+    display: inline-block;
+    margin-bottom: 5%;
+    margin-top: 1%;
+    
+  }
+  
+  .tree-counter-count {
+    font-size: 4rem;
+    font-weight: bold;
+    color: rgb(111, 186, 13);
+    display: block;
+    animation: bounce 1s infinite;
+  }
+  
+  .tree-counter-label {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    opacity: 0.7;
+    margin-top: 10px;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  

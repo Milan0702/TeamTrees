@@ -1,0 +1,71 @@
+/* src/components/Navbar.css */
+.navbar-nav {
+  position: fixed;
+  top: 0;
+  right: -500px;
+  /* Initially hidden */
+  width: 500px;
+  height: 100%;
+  background-color: rgb(17, 50, 89);
+  box-shadow: 0px 0px 20px 2px rgb(0, 0, 0, 0.5);
+  transition: right 0.3s;
+  z-index: 1000;
+  
+}
+
+
+
+.open-nav {
+  right: 0;
+  /* Displayed when open */
+}
+
+.toggle-button-nav,
+.close-button-nav {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  height: 50px;
+  width: 50px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border-radius: 50%;
+  border: 1px solid rgb(185, 185, 185);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1001;
+  transition: transform 0.1s ease-in-out;
+}
+.toggle-button-nav:hover,
+.close-button-nav:hover {
+  transform: scale(1.2);
+  background-color: skyblue;
+}
+.toggle-button-nav .hidden {
+  display: none;
+}
+
+.navbar-nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 100px 20px 0 20px;
+  padding-top: 80px;
+
+  /* Adjust the top padding to push content down when open */
+}
+
+.navbar-nav li {
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  font-size: 30px;
+  text-align: left;
+}
+
+/* Add additional styles as needed */
+
+.apple li a {
+  color:#ffffff;
+  text-decoration: none;
+}

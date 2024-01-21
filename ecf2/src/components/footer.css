@@ -1,0 +1,35 @@
+/* Footer Styles */
+.footer {
+  margin-top: -0.5%;
+  /* background-color: #196d4a; Change the background color to your preference */
+  background-color: rgb(17, 50, 89);
+  color: #fff; /* Change the text color to your preference */
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo img {
+  width: 350px; /* Adjust the logo width as needed */
+  padding-left: 20%;
+}
+
+.footer-content {
+  justify-content: space-between;
+  display: flex;
+  /* gap: 20px; */
+}
+
+.about-us, .contact-us {
+  flex: 1;
+}
+
+.about-us h3, .contact-us h3 {
+  font-size: 18px;
+}
+
+/* .copyright {
+  text-align: right;
+  font-size: 14px;
+} */
